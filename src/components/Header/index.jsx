@@ -38,6 +38,15 @@ function Header() {
             </button>
 
             <div className={menuMobileActive ? 'menu-mobile active' : 'menu-mobile'}>
+                <div className='header-info-localizacao'>
+                    <span>Deliver to:</span>
+                    <p>
+                        <img src={MapMarkerIcon} alt="localizacao-icon" />
+                        ( São Paulo )
+                        <span>Brazil</span>
+                    </p>
+                </div>
+                
                 <GroupBtns direction="collum"/>
             </div>
         </header>
