@@ -1,7 +1,3 @@
 main section {
     min-height: calc(100vh - 78px);
 }
-
-.flash-deals {
-    background-image: linear-gradient(to bottom, #ffb800, #ffad00, #ffa100, #ff9600, #ff8a00);
-}

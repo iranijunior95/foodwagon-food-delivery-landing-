@@ -1,0 +1,20 @@
+.buttonDefault {
+    height: 60px;
+    padding: 1.313rem 3rem;
+    background-image: linear-gradient(to right bottom, #ff7a7a, #ff6f64, #ff654c, #fd5e30, #f65900);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.625rem;
+    font-size: 1.125rem;
+    font-weight: bold;
+    font-family: var(--source-sans-3);
+    color: var(--color-ligth);
+}
+
+.buttonDefault:active {
+    transform: scale(0.98);
+}

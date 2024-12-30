@@ -4,8 +4,11 @@
 :root {
     --source-sans-3: "Source Sans 3", serif;
     --open-sans: "Open Sans", serif;
-
     --color-ligth: #FFFFFF;
+    --color-input-white: #F5F5F5;
+    --color-input-grey: #9E9E9E;
+    --color-span-grey: #757575;
+    --color-text-grey: #504F4F;
     --color-themer-grey: #424242;
     --color-themer-orange: #F17228;
     --color-themer-yellow: #FFB30E;
