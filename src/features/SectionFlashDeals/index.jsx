@@ -45,11 +45,13 @@ function SectionFlashDeals() {
                 </div>
             </div>
             
-            <img 
-                src={ImageBase} 
-                alt="img base" 
-                className="img-base"
-            />
+            <div className='img-container'>
+                <img 
+                    src={ImageBase} 
+                    alt="img base" 
+                    className="img-base"
+                />
+            </div>
         </section>
     );
 }

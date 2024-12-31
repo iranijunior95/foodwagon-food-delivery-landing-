@@ -2,16 +2,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 13.75rem;
     background-image: linear-gradient(to bottom, #ffb800, #ffad00, #ffa100, #ff9600, #ff8a00);
 }
 
 .are-you {
+    min-height: calc(100vh - 78px);
+    padding-left: 13.75rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     gap: 2rem;
+    flex-grow: 1;
 }
 
 .are-you-titulos {
@@ -20,7 +22,6 @@
     align-items: flex-start;
     justify-content: center;
     gap: 0.938rem;
-    
 }
 
 .are-you-titulos > h1 {
@@ -38,6 +39,7 @@
 }
 
 .are-you-card {
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,7 +91,7 @@
 }
 
 .are-you-card .body {
-    width: 710px;
+    width: 100%;
     padding: 1.5rem;
     display: flex;
     align-items: center;
@@ -110,6 +112,98 @@
     background-position: calc(1rem) center;
     border-radius: 0.5rem;
 }
+
+.img-container {
+    width: 40%;
+    min-height: calc(100vh - 78px);
+    padding-right: 13.75rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.img-base {
+    width: 497px;
+    object-fit: fill;
+}
+
+@media screen and (max-width: 1600px) {
+    .are-you {
+        padding-left: 8rem;
+    }
+
+    .img-container { 
+        padding-right: 8rem;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .are-you {
+        padding-left: 4rem;
+    }
+
+    .img-container { 
+        padding-right: 4rem;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .img-container { 
+        display: none;
+    }
+
+    .are-you {
+        width: 100%;
+        align-items: center;
+        padding-right: 4rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .are-you {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .are-you-titulos > h1 {
+        font-size: 4.5rem;
+    }
+
+    .are-you-card {
+       width: 100%;
+    }
+
+    .are-you-card .body {
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+
+    .are-you-card .body > input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .are-you-titulos > h1 {
+        font-size: 4rem;
+    }
+
+    .headerOption {
+        padding: 0.625rem 1rem; 
+    }
+}
+
+/**
+padding: 1rem 13.75rem;
+.are-you {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
 
 .img-base {
     position: absolute;
@@ -158,3 +252,4 @@
         display: none;
     }
 }
+*/
