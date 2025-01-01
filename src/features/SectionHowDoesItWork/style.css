@@ -1,0 +1,34 @@
+.how-does {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-left: 13.75rem;
+    padding-right: 13.75rem;
+}
+
+@media screen and (max-width: 1600px) {
+    .how-does {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .how-does {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+@media screen and (max-width: 800px) { 
+    .how-does {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 410px) { 
+    .how-does {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

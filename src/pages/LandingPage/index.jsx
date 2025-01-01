@@ -1,5 +1,6 @@
 import Header from '../../components/Header';
 import SectionFlashDeals from '../../features/SectionFlashDeals';
+import SectionHowDoesItWork from '../../features/SectionHowDoesItWork';
 import './style.css';
 
 function LandingPage() {
@@ -9,7 +10,7 @@ function LandingPage() {
 
             <main>
                 <SectionFlashDeals />
-                <section></section>
+                <SectionHowDoesItWork />
             </main>
         </>
     );
