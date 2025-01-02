@@ -1,6 +1,7 @@
 import Header from '../../components/Header';
 import SectionFlashDeals from '../../features/SectionFlashDeals';
 import SectionHowDoesItWork from '../../features/SectionHowDoesItWork';
+import SectionPopularItens from '../../features/SectionPopularItens';
 import './style.css';
 
 function LandingPage() {
@@ -11,6 +12,7 @@ function LandingPage() {
             <main>
                 <SectionFlashDeals />
                 <SectionHowDoesItWork />
+                <SectionPopularItens />
             </main>
         </>
     );
